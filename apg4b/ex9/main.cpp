@@ -2,7 +2,19 @@
 using namespace std;
 
 int main() {
-  cout << "Hello, world!" << endl;
-  cout << "Hello, AtCoder!" << endl;
-  cout << "Hello, C++!" << endl;
+  int x, a, b;
+  cin >> x >> a >> b;
+
+  // 1.の出力
+  x++;
+  cout << x << endl;
+
+  x *= a + b;
+  cout << x << endl;
+
+  x *= x;
+  cout << x << endl;
+
+  x--;
+  cout << x << endl;
 }
